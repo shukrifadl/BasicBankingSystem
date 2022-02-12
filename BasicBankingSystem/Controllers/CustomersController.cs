@@ -72,28 +72,7 @@ namespace BasicBankingSystem.Controllers
             }
         }
 
-        // GET: CustomerController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View(customerRepo.GetbyId(id));
-        }
-
-        // POST: CustomerController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                customerRepo.Delete(id);
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-        // GET: CustomerController/Transfer/5
+                // GET: CustomerController/Transfer/5
         public ActionResult Transfer(int id)
         {
 
