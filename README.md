@@ -15,8 +15,9 @@ simple dynamic website which has the following specs
 
 ## demonstration
 live demonstration [Basic Bank](http://basicbank.somee.com/) hosteed in [Somee](https://somee.com/).
-![Screen shot](BasicBank.png)
+#### ScreenShot 
 
-
+![BasicBank](https://user-images.githubusercontent.com/62289601/153728798-110a5f6c-3a3b-4096-8f42-723fb207b46f.png)
+#### Video
 https://user-images.githubusercontent.com/62289601/153728696-c6421b05-9142-495b-a254-609df2935670.mov
 
